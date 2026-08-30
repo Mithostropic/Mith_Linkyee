@@ -114,7 +114,7 @@ links:
       title: "My Bluesky Profile."
       target: "_blank"
   - link:
-      icon: "fa-solid fa-link"
+      icon: "./images/VRC_Logo.svg"
       text: "VRChat"
       url: "https://vrchat.com/home/user/usr_c267e187-04e2-405e-9c93-417c6619a6a7"
       alt: "My VRChat Profile"
