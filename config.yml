@@ -9,7 +9,7 @@
 # Theme — directory under ./themes/. Built-ins:
 #   default | minimal-mono | editorial-serif | neo-brutalism
 #   glassmorphism | terminal-retro | paper-card | newsprint
-theme: glassmorphism
+theme: neo-brutalism
 
 # HTML <html lang> attribute
 lang: "en"
@@ -48,13 +48,14 @@ plugins:
   # Latest commit (sha / date / message) for a repo. Use as:
   #   {{ vars.GithubLastCommitPlugin['owner/repo'].date }}
   #   {{ vars.GithubLastCommitPlugin['owner/repo'].sha }}
-  - GithubLastCommitPlugin:
-      - ZhgChgLi/linkyee
+  #- GithubLastCommitPlugin:
+  #    - ZhgChgLi/linkyee
 
   # Public profile stats (followers / following / public_repos). Use as:
   #   {{ vars.GithubProfilePlugin['user'].followers }}
   - GithubProfilePlugin:
-      - ZhgChgLi
+      - Mithostropic
+      #- ZhgChgLi
 
   # Latest items from any RSS / Atom feed (Medium, blogs, YouTube channels,
   # podcasts...). Returns an array of { title, url, date } per feed URL.
@@ -81,12 +82,12 @@ google_analytics_id:
 # -----------------------------------------------------------------------------
 # Profile header
 # -----------------------------------------------------------------------------
-title: "ZhgChgLi's Links"
+title: "Mith's Links"
 avatar: "./images/profile.jpeg"
-name: "@zhgchgli"
+name: "@Mithostropic"
 tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
-    Followed by {{ vars.GithubProfilePlugin['ZhgChgLi'].followers }} on GitHub across {{ vars.GithubProfilePlugin['ZhgChgLi'].repos }} public repos.
+    Nerd with lots of interests, resident of the internet.
+    Followed by {{ vars.GithubProfilePlugin['Mithostropic'].followers }} on GitHub across {{ vars.GithubProfilePlugin['Mithostropic'].repos }} public repos.
 
 # -----------------------------------------------------------------------------
 # Links
@@ -98,21 +99,21 @@ tagline: >-
 #   target — `_blank` (new tab) or `_self`
 # -----------------------------------------------------------------------------
 links:
-  - link:
-      icon: "fa-solid fa-rss"
-      text: "Tech Blog <span class='link-button-text'>(120+ Posts)</span>"
-      url: "https://zhgchg.li"
-      alt: "ZhgChgLi Tech & Travel Blog"
-      title: "ZhgChgLi Tech & Travel Blog"
-      target: "_blank"
+#  - link:
+#      icon: "fa-solid fa-rss"
+#      text: "Tech Blog <span class='link-button-text'>(120+ Posts)</span>"
+#      url: "https://zhgchg.li"
+#      alt: "ZhgChgLi Tech & Travel Blog"
+#      title: "ZhgChgLi Tech & Travel Blog"
+#      target: "_blank"
 
   # → uses GithubRepoStarsCountPlugin
   - link:
       icon: "fa-brands fa-swift"
-      text: "ZMarkupParser <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMarkupParser']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMarkupParser"
-      alt: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      title: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
+      text: "Youtube</span>"
+      url: "https://www.youtube.com/@mithostropic"
+      alt: "My YouTube Channel."
+      title: "My YouTube Channel."
       target: "_blank"
   - link:
       icon: "fa-brands fa-app-store-ios"
