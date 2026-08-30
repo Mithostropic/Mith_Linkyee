@@ -87,7 +87,7 @@ avatar: "./images/profile.jpeg"
 name: "@Mithostropic"
 tagline: >-
     Nerd with lots of interests, resident of the internet.
-    Followed by {{ vars.GithubProfilePlugin['Mithostropic'].followers }} on GitHub across {{ vars.GithubProfilePlugin['Mithostropic'].repos }} public repos.
+   # Followed by {{ vars.GithubProfilePlugin['Mithostropic'].followers }} on GitHub across {{ vars.GithubProfilePlugin['Mithostropic'].repos }} public repos.
 
 # -----------------------------------------------------------------------------
 # Links
@@ -100,21 +100,21 @@ tagline: >-
 # -----------------------------------------------------------------------------
 links:
   - link:
-      icon: "fa-brands fa-swift"
+      icon: "fa-brands fa-youtube"
       text: "Youtube"
       url: "https://www.youtube.com/@mithostropic"
       alt: "My YouTube Channel."
       title: "My YouTube Channel."
       target: "_blank"
   - link:
-      icon: "fa-brands fa-app-store-ios"
+      icon: "fa-brands fa-bluesky"
       text: "Bluesky"
       url: "https://bsky.app/profile/mithostropic.bsky.social"
       alt: "My Bluesky Profile."
       title: "My Bluesky Profile."
       target: "_blank"
   - link:
-      icon: "fa-brands fa-markdown"
+      icon: "fa-solid fa-link"
       text: "VRChat"
       url: "https://vrchat.com/home/user/usr_c267e187-04e2-405e-9c93-417c6619a6a7"
       alt: "My VRChat Profile"
@@ -134,43 +134,43 @@ links:
 # -----------------------------------------------------------------------------
 # Social media buttons
 # -----------------------------------------------------------------------------
-socials:
-  - social:
-      icon: "fa-brands fa-medium"
-      url: "https://blog.zhgchg.li"
-      title: "ZhgChgLi's Medium"
-      alt: "ZhgChgLi's Medium"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-github"
-      url: "https://github.com/ZhgChgLi"
-      title: "ZhgChgLi's GitHub"
-      alt: "ZhgChgLi's GitHub"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-twitter"
-      url: "https://twitter.com/zhgchgli"
-      title: "ZhgChgLi's Twitter"
-      alt: "ZhgChgLi's Twitter"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/zhgchgli/"
-      title: "ZhgChgLi's LinkedIn"
-      alt: "ZhgChgLi's LinkedIn"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
-      title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-envelope"
-      url: "mailto:zhgchgli@gmail.com"
-      title: "Email: zhgchgli@gmail.com"
-      alt: "zhgchgli@gmail.com"
-      target: "_blank"
+# socials:
+#  - social:
+#      icon: "fa-brands fa-medium"
+#      url: "https://blog.zhgchg.li"
+#      title: "ZhgChgLi's Medium"
+#      alt: "ZhgChgLi's Medium"
+#      target: "_blank"
+#  - social:
+#      icon: "fa-brands fa-github"
+#      url: "https://github.com/ZhgChgLi"
+#      title: "ZhgChgLi's GitHub"
+#      alt: "ZhgChgLi's GitHub"
+#      target: "_blank"
+#  - social:
+#      icon: "fa-brands fa-twitter"
+#      url: "https://twitter.com/zhgchgli"
+#      title: "ZhgChgLi's Twitter"
+#      alt: "ZhgChgLi's Twitter"
+#      target: "_blank"
+#  - social:
+#      icon: "fa-brands fa-linkedin"
+#      url: "https://www.linkedin.com/in/zhgchgli/"
+#      title: "ZhgChgLi's LinkedIn"
+#      alt: "ZhgChgLi's LinkedIn"
+#      target: "_blank"
+#  - social:
+#      icon: "fa-brands fa-instagram"
+#      url: "https://www.instagram.com/zhgchgli/"
+#      title: "Instagram"
+#      alt: "ZhgChgLi's Instagram"
+#      target: "_blank"
+#  - social:
+#      icon: "fa-solid fa-envelope"
+#      url: "mailto:zhgchgli@gmail.com"
+#      title: "Email: zhgchgli@gmail.com"
+#      alt: "zhgchgli@gmail.com"
+#      target: "_blank"#
 
 # -----------------------------------------------------------------------------
 # Footer (uses CountdownPlugin)
